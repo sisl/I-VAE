@@ -1,21 +1,26 @@
-# $\mathcal{I}\text{-VAE}$
+# I-VAE
 
 PyTorch implementation of the _inversion variational autoencoder (I-VAE)_.
 
-<kbd>
+
 <p align="center">
-    <img src="./media/ivae.png">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./media/ivae-light.png">
+        <source media="(prefers-color-scheme: dark)" srcset="./media/ivae-dark.png">
+        <img src="./media/ivae-light.png">
+    </picture>
 </p>
-</kbd>
+
 
 Example applied to MNIST given partial pixel observations.
 
-<kbd>
 <p align="center">
-    <img src="./media/mnist.png">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./media/mnist-light.png">
+        <source media="(prefers-color-scheme: dark)" srcset="./media/mnist-dark.png">
+        <img src="./media/mnist-light.png">
+    </picture>
 </p>
-</kbd>
-
 Other examples applied to geological inversion, used as a way to update a POMDP belief through posterior state samples.
 
 
