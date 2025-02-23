@@ -21,8 +21,10 @@ Example applied to MNIST given partial pixel observations.
         <img src="./media/mnist-light.png">
     </picture>
 </p>
+
 Other examples applied to geological inversion, used as a way to update a POMDP belief through posterior state samples.
 
+![inversion](./media/geological-inversion.mp4)
 
 ## Citation
 _In progress._
