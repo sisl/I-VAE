@@ -17,6 +17,17 @@ cd I-VAE/ivae
 pip install .
 ```
 
+## Usage
+```python
+from ivae import IVAE, train
+
+model = IVAE(state_channels, obs_channels, latent_dim, dropout_rate)
+for epoch in range(epochs):
+    train(model, dataloader, val_dataloader, optimizer, device, epoch, epochs)
+```
+
+Where `dataloader` holds tuples of `(state, obs)`. In the provided implementation, the state is an 80×80 tensor and the observations fill out a 200×200 tensor.
+
 ## Examples
 
 Example applied to MNIST given partial pixel observations.
