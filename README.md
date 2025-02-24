@@ -2,7 +2,6 @@
 
 PyTorch implementation of the _inversion variational autoencoder (I-VAE)_.
 
-
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: light)" srcset="./media/ivae-light.png">
@@ -11,6 +10,14 @@ PyTorch implementation of the _inversion variational autoencoder (I-VAE)_.
     </picture>
 </p>
 
+## Installation
+```sh
+git clone https://github.com/sisl/I-VAE
+cd I-VAE/ivae
+pip install .
+```
+
+## Examples
 
 Example applied to MNIST given partial pixel observations.
 
@@ -28,5 +35,8 @@ Other examples applied to geological inversion, used as a way to update a POMDP 
     <img src="./media/geological-inversion.gif">
 </p>
 
+
 ## Citation
-_In progress._
+```
+In progress
+```
